@@ -11,26 +11,34 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    ">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body class="page">
     <!--Шапка сайту -->
     <header class="page-header link">
-      <nav>
+      <div class="container header-container">
+      <nav class="header-nav">
         <a class="page-header-logo link" href="./index.html">
           WEB
-          <span class="studio">Studio</span>
+          <span class="studio-header">Studio</span>
         </a>
         <ul class="site-nav list">
           <li class="site-nav-contacts">
-            <a class="pages link" href="./index.html">Studio</a>
+            <a class="pages-studio link" href="./index.html">Studio</a>
           </li>
           <li class="site-nav-contacts">
-            <a class="pages link" href="./portfolio.html">Portfolio</a>
+            <a class="pages-portfolio link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="site-nav-contacts">
-            <a class="pages link" href="">Contacts</a>
+            <a class="pages-contacts link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -38,8 +46,8 @@
         <ul class="adress-nav list">
           <li class="adress-nav-contacts list">
             <a class="communication link" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
+              >info@devstudio.com</a
+            >
           </li>
           <li class="adress-nav-contacts list">
             <a class="communication link" href="tel:+110001111111"
@@ -48,10 +56,12 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <!-- Герой -->
     <main>
-      <section>
+      <section class="hero" >
+        <div class="container hero-container">
         <h1 hidden>Hello</h1>
         <ul class="menu list">
           <li class="menu-list link">
@@ -180,6 +190,7 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
