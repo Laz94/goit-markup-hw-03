@@ -6,7 +6,7 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #e5e5e5;
+  background-color: #f4f4f4;
 }
 
 
@@ -41,7 +41,7 @@ address {
 }
 
 img {
-  display: inline-block;
+ display: block;
 }
 
 .hero .h1 {
@@ -86,9 +86,8 @@ display: flex;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  margin-bottom: 8px;
+ 
 }
 
 .tools-out > img {
@@ -120,13 +119,17 @@ display: flex;
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-
+.kart{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
 .sites {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 .sites-list {
   max-width: calc((100% - 48px) / 3);
@@ -187,6 +190,11 @@ display: flex;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  border: none;
+  padding: 12px 24px;
+  background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 .button:hover,
 .button:focus,
@@ -197,6 +205,12 @@ display: flex;
   border-radius: 4px;
   color: #ffffff;
 }
+
+  
+
+
+
+
 
 .app {
   font-family: "Roboto";
@@ -215,7 +229,8 @@ display: flex;
 }
 .page-header {
   display: flex;
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E7E9FC;
 }
 .page-header-logo:hover,
 .page-header-logo:focus {
@@ -228,7 +243,7 @@ display: flex;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 .header-container {
   display: flex;
@@ -275,9 +290,8 @@ display: flex;
   text-transform: none;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  padding: 12px 24px;
   gap: 24px;
-  padding-top: 96px;
+  margin-top: 96px;
 }
 .site-nav-contacts {
   color: var(--dark-color);
@@ -319,10 +333,13 @@ display: flex;
 }
 .hero {
 }
-.hero-wrap {
+.hero-index{
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+}
+
+.hero-wrap {
+  
+  
   left: 0px;
   top: 72px;
 }
@@ -343,9 +360,8 @@ display: flex;
 
 .btn {
   align-items: flex-start;
-  width: 169px;
-  height: 56px;
-
+ 
+  border: none;
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -360,7 +376,7 @@ display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  padding-left: 32px;
+  padding: 16px 32px;
 }
 
 .btn:hover {
@@ -375,8 +391,7 @@ display: flex;
   height: auto;
 }
 .advantages-list {
-  width: 1158px;
-  height: 104px;
+ 
   margin: 0 auto;
   padding-bottom: 120px;
   padding-top: 120px;
@@ -405,7 +420,7 @@ display: flex;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .advantages-team {
   font-family: "Roboto";
@@ -416,6 +431,7 @@ display: flex;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 .text {
   font-family: "Roboto";
@@ -425,9 +441,7 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
-
-  /* padding: 8px 52px 0 52px ; */
+  
 }
 .advantages-text {
   font-family: "Roboto";
@@ -450,6 +464,7 @@ display: flex;
 }
 .team-info {
   padding: 32px 16px;
+  background-color: white;
 }
 .advantages-punctuality {
 }
@@ -471,7 +486,7 @@ display: flex;
 }
 .tools-out {
   display: flex;
-  padding-top: 72px;
+  margin-top: 72px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -524,6 +539,7 @@ display: flex;
 }
 .out-team {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .team-foto {
   display: block;
@@ -533,9 +549,10 @@ display: flex;
 .team-member {
 }
 .page-footer {
+  background-color: #2e2f42;
 }
 .footer-container {
-  background-color: #2e2f42;
+  
   align-items: center;
   margin-right: auto;
   width: 1440px;
@@ -555,7 +572,7 @@ display: flex;
   display: flex;
 }
 .footer-text {
-  font-family: "Roboto";
+  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -564,10 +581,10 @@ display: flex;
   color: #e7e9fc;
   display: flex;
   width: 264px;
-  height: 57.6px;
+  
   left: 155px;
   top: 2435px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .hero-container {
   padding-bottom: 113px;
