@@ -311,6 +311,8 @@ display: flex;
 }
 .hero-index {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px; ;
 }
 
 .hero-wrap {
@@ -326,8 +328,7 @@ display: flex;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .btn {
@@ -496,7 +497,7 @@ display: flex;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-information {
   font-family: "Roboto";
